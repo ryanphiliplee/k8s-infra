@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - ljm5511/nodeapp-git:1.2.0
