@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: ljm5511/nodeapp-git:1.0.1
+        image: 242337484181.dkr.ecr.ap-northeast-2.amazonaws.com/nodeapp01:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
