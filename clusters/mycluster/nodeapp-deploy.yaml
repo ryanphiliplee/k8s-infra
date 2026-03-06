@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: ljm5511/nodeapp-git:1.0.0 
+        image: ljm5511/nodeapp-git:1.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
